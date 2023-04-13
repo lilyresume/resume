@@ -10,21 +10,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
     author = "Lily Lang"
     description = "Professional Resume"
     og_image = "better-software.png"
-    twitterName = "@bascodes"
-    ghRepo = "https://github.com/codewithbas/resume/"
-    hugoRepo = "https://github.com/gohugoio/hugo/"
-
+    twitterName = ""
+    ghRepo = ""
+    hugoRepo = ""
     [params.profile]
         enable = true
         name = "Lily Lang"
         tagline = "Professional Resume"
-        avatar = "bas-steins-2.jpg"
-
+        avatar = "PICTURE LILY WANTS"
     [params.contact]
         enable = true
-
         location = "North Carolina"
-
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:"
@@ -33,64 +29,44 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-envelope-square"
         url = "mailto:mail@example.org"
         text = "EMAIL HERE"
-        
     [params.skills]
         enable = true
-
         [[params.skills.list]]
         title = "Skill #1"
         [[params.skills.list]]
         title = "Skill #2"
         [[params.skills.list]]
         title = "Skill #3"
-
-
     [params.education]
         enable = true
-
         [[params.education.list]]
         degree = "Student"
         university = "Salem Middle School"
         dates = "DATE #1 - 2023"
-
-
     [params.awards]
         enable = true
-
         [[params.awards.list]]
         name = "AWARD #1"
         body = "SHORT DESCRIPTION"
         date = "YEAR EARNED"
-
-
     [params.languages]
         enable = true
-
-        
         [[params.languages.list]]
         name = "English"
         level = "Fluent"
-
-
     [params.interests]
         enable = true
-
         [[params.interests.list]]
         name = "INTEREST #1"
         [[params.interests.list]]
         name = "INTEREST #2"
         [[params.interests.list]]
         name = "INTEREST #3"
-
-
     [params.summary]
         enable = true
         text = "SMALL DESCRIPTION OF YOURSELF"
-
-
     [params.experience]
         enable = true
-
         [[params.experience.list]]
         title = "EXPERIENCE #1"
         dates = "YEAR - YEAR"
@@ -98,39 +74,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "WORK EXPERIENCE/LEARNED"
         [[params.experience.list.items]]
         details = "WORK EXPERIENCE/LEARNED"
-
-
-
     [params.projects]
         enable = true
-
         [[params.projects.list]]
         title = "PROJECT #1"
         meta = "WHERE/WITH WHO"
         url = "LINK"
         tagline = "DESCRIPTION"
-
-
     [params.information]
         enable = true
-
-      
         [[params.information.list]]
         title = "Interests"
         details = "LIST INTERESTS"
 
-    [params.social]
-        enable = false
-
-        [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "https://github.com/codewithbas"
-        title = "/codewithbas"
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/bascodes"
-        title = "/in/bascodes"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "https://twitter.com/bascodes"
-        title = "@bascodes"
+   
