@@ -1,80 +1,72 @@
 # Page settings
 
-baseURL = "https://resume-demo.bas.work/"
+baseURL = "https://lrlangresume.netlify.app"
 languageCode = "en"
-title = "John Doe"
+title = "Lily Lang"
 enableGitInfo = false
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
-    author = "John Doe"
-    description = "Demo Resume"
+    author = "Lily Lang"
+    description = "Professional Resume"
     og_image = "better-software.png"
-    twitterName = "@bascodes"
+    twitterName = ""
     ghRepo = "https://github.com/codewithbas/resume/"
     hugoRepo = "https://github.com/gohugoio/hugo/"
 
     [params.profile]
         enable = true
-        name = "John Doe"
-        tagline = "Demo Resume"
+        name = "Lily Lang"
+        tagline = "Professional Resume"
         avatar = "bas-steins-2.jpg"
 
     [params.contact]
         enable = true
 
-        location = "Somewhere in the world"
+        location = "North Carolina"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:"
-        text = "confidential"
+        text = "PHONE # HERE"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:mail@example.org"
-        text = "mail@example.org"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://bas.bio"
-        text = "My links on the web"
-
-
+        text = "EMAIL HERE"
+        
     [params.skills]
         enable = true
 
         [[params.skills.list]]
-        title = "Python"
+        title = "Skill #1"
         [[params.skills.list]]
-        title = "Lua"
+        title = "Skill #2"
         [[params.skills.list]]
-        title = "LISP"
+        title = "Skill #3"
 
 
     [params.education]
         enable = true
 
         [[params.education.list]]
-        degree = "Master of Desaster"
-        university = "University of Life"
-        dates = "1990-present"
+        degree = "Student"
+        university = "Salem Middle School"
+        dates = "DATE #1 - 2023"
 
 
     [params.awards]
         enable = true
 
         [[params.awards.list]]
-        name = "Professional Scrum Master™ I"
-        body = "scrum.org"
-        date = "2018"
+        name = "AWARD #1"
+        body = "SHORT DESCRIPTION"
+        date = "YEAR EARNED"
 
 
     [params.languages]
         enable = true
 
-        [[params.languages.list]]
-        name = "Klingon"
-        level = "Fluent"
-
+        
         [[params.languages.list]]
         name = "English"
         level = "Fluent"
@@ -84,24 +76,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Counting Sheeps"
+        name = "INTEREST #1"
+        [[params.interests.list]]
+        name = "INTEREST #2"
+        [[params.interests.list]]
+        name = "INTEREST #3"
 
 
     [params.summary]
         enable = true
-        text = "I am the 10 eggs developer you are looking for."
+        text = "SMALL DESCRIPTION OF YOURSELF"
 
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Intern"
-        dates = "2000 - Present"
-        company = "Compuglobal Hyper Mega Net"
-        details = "Increased the baudrate for comic book guy"
+        title = "EXPERIENCE #1"
+        dates = "YEAR - YEAR"
+        company = "COMPANY/ORGANIZATION"
+        details = "WORK EXPERIENCE/LEARNED"
         [[params.experience.list.items]]
-        details = "Took buttery notes"
+        details = "WORK EXPERIENCE/LEARNED"
 
 
 
@@ -109,28 +105,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "This Resume"
-        meta = "GitHub project"
-        url = "https://github.com/codewithbas/resume"
-        tagline = "A resume with a free PDF generator"
+        title = "PROJECT #1"
+        meta = "WHERE/WITH WHO"
+        url = "LINK"
+        tagline = "DESCRIPTION"
 
 
     [params.information]
-        enable = false
+        enable = true
 
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
+      
         [[params.information.list]]
         title = "Interests"
-        details = "Cooking, Beekeeping, Cycling"
+        details = "LIST INTERESTS"
 
     [params.social]
-        enable = true
+        enable = false
 
         [[params.social.list]]
         icon = "fab fa-github-square"
